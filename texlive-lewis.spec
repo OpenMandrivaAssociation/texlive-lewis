@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/lewis
+# catalog-date 2007-03-08 21:58:53 +0100
+# catalog-license pd
+# catalog-version 0.1
 Name:		texlive-lewis
 Version:	0.1
 Release:	1
@@ -39,6 +45,7 @@ octet rule.
 %{_texmfdistdir}/tex/latex/lewis/lewis.sty
 %doc %{_texmfdistdir}/doc/latex/lewis/README
 %doc %{_texmfdistdir}/doc/latex/lewis/lewis.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -49,3 +56,5 @@ octet rule.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
