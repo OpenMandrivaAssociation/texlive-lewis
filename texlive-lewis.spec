@@ -6,7 +6,7 @@
 # catalog-version 0.1
 Name:		texlive-lewis
 Version:	0.1
-Release:	9
+Release:	10
 Summary:	Draw Lewis structures
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lewis
