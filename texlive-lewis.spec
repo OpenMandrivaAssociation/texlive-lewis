@@ -1,6 +1,6 @@
 Name:		texlive-lewis
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Draw Lewis structures
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lewis
