@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Draw Lewis structures
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lewis
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/lewis
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lewis.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lewis.doc.r%{version}.tar.xz
